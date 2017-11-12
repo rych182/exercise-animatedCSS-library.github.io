@@ -1,0 +1,81 @@
+body{
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+.body{
+	padding: 60px 15px;
+}
+.pacifico{
+	font-family: 'Pacifico', cursive;
+}
+
+.title{
+	font-size: 2.5em;
+	margin-top: 0;
+}
+.main-nav a{/*EVITAR CLASES CON SELECTORES porque si quieres agregar 
+	otras cosas que afecten a lo mismo, tendrás que escribir mas,
+	ya que modificarías el HTML o el selector*/
+	
+}
+.main-header{
+	background-color: #34495E;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 4px;
+}
+
+.nav-link{
+	color: white;
+	margin-right: -4px;
+	text-decoration: none;
+	width: 33%;
+	display: inline-block;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.red-text{
+	color: #f45b69;
+}
+.main-container{
+	min-height: 100vh;
+}
+
+.product img{
+	width: 150px;
+}
+.product h3{
+	font-size: 1.7em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.card{
+	border-radius: 4px;
+	background-color: white;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	/*1)distancia de la sombra horizontalmente, 
+	2) distancia de la sombra verticalmente
+	3) color que va a tener la sombra
+	4) la propagación(Esta puede ir antes del color)
+	5) se pueden agregar multiples sombras, esto va después del color separado
+	con una coma.*/
+}
+
+.threeD{
+	text-shadow: 1px 3px 0px #6b251d, 1px 13px 5px rgb(171,168,168);
+}
+
+.delay-1{
+	animation-delay: 0.1s;
+}
+.delay-2{
+	animation-delay: 0.3s;	
+}
+.delay-3{
+	animation-delay: 0.6s;
+}
